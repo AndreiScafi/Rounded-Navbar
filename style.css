@@ -30,7 +30,7 @@ html {
     transition: transform 1s;
 }
 
-.change.navbar {
+.change .navbar {
     transform: scale(1) rotate(0);
 }
 
@@ -91,4 +91,9 @@ html {
 .navbar-btn i {
     font-size: 2.5rem;
     color: #fff;
+    transition: transform .5s;
+}
+
+.change .navbar-btn i {
+    transform: rotate(45deg);
 }
